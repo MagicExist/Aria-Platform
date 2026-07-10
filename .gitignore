@@ -1,0 +1,30 @@
+# --- AI-DLC: per-user / per-clone cursors and machine-local runtime ---
+# (see CLAUDE.md § "Git Integration")
+
+# Per-user cursors
+aidlc/active-space
+aidlc/spaces/*/intents/active-intent
+
+# Per-clone audit-shard token and machine-local sessions
+aidlc/.aidlc-clone-id
+aidlc/.aidlc-sessions/
+
+# Per-intent runtime graph (also covers per-Bolt worktree fragments)
+aidlc/spaces/*/intents/*/runtime-graph.json
+
+# Recovery, hooks-health, sensors scratch
+aidlc/spaces/*/intents/*/.aidlc-*
+aidlc/spaces/*/intents/.aidlc-*
+
+# Personal settings override (the .example template stays tracked)
+.claude/settings.local.json
+
+# --- Common local/build artifacts ---
+node_modules/
+.expo/
+dist/
+web-build/
+*.log
+.env
+.env.*
+.DS_Store
