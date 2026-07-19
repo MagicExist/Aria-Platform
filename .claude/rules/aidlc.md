@@ -24,10 +24,10 @@
   file is added there, add a matching @-line below.
 -->
 
-@../../aidlc/spaces/default/memory/org.md
-@../../aidlc/spaces/default/memory/team.md
-@../../aidlc/spaces/default/memory/project.md
-@../../aidlc/spaces/default/memory/phases/ideation.md
-@../../aidlc/spaces/default/memory/phases/inception.md
-@../../aidlc/spaces/default/memory/phases/construction.md
-@../../aidlc/spaces/default/memory/phases/operation.md
+@../../aidlc/spaces/aria-plants/memory/org.md
+@../../aidlc/spaces/aria-plants/memory/team.md
+@../../aidlc/spaces/aria-plants/memory/project.md
+@../../aidlc/spaces/aria-plants/memory/phases/ideation.md
+@../../aidlc/spaces/aria-plants/memory/phases/inception.md
+@../../aidlc/spaces/aria-plants/memory/phases/construction.md
+@../../aidlc/spaces/aria-plants/memory/phases/operation.md
